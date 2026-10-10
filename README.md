@@ -23,7 +23,7 @@ The project focuses on understanding hosted embedding models, API integration, v
 - Manage API authentication securely.
 - Build a foundation for semantic search and RAG applications.
 
-## 🧠 What Are Text Embeddings?
+## What Are Text Embeddings?
 
 Text embeddings convert text into dense numerical vectors.
 
@@ -48,7 +48,7 @@ Common applications include:
 - Duplicate and paraphrase detection
 - Retrieval-Augmented Generation (RAG)
 
-## 🏗️ Project Workflow
+## Project Workflow
 
 ```text
 Input Text
@@ -64,7 +64,7 @@ Vector Similarity Comparison
 Relevant Text Retrieval
 ```
 
-## 🛠️ Key Technical Concepts
+## Key Technical Concepts
 
 ### 1. Hugging Face Inference API
 
@@ -154,7 +154,7 @@ A robust implementation should handle exceptions, check model compatibility, and
 
 Some models may require additional loading time or specific access permissions.
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Inference SDK:** `huggingface_hub`
@@ -163,7 +163,7 @@ Some models may require additional loading time or specific access permissions.
 - **Scientific Computing:** SciPy
 - **Environment:** Jupyter Notebook / Google Colab
 
-## ⚙️ Installation
+## Installation
 
 Install the libraries used in the workflow:
 
@@ -171,7 +171,7 @@ Install the libraries used in the workflow:
 pip install huggingface_hub python-dotenv numpy scipy
 ```
 
-## 🔑 Configuration
+## Configuration
 
 1. Create an access token through your Hugging Face account if required.
 2. Store it in a local `.env` file.
@@ -200,7 +200,7 @@ client = InferenceClient(
 
 The exact embedding call depends on the selected model, provider, and supported API interface. Consult the current Hugging Face documentation for the corresponding embedding method and parameters.
 
-## 📚 Key Learning Outcomes
+## Key Learning Outcomes
 
 By exploring this project, you can develop an understanding of:
 
@@ -213,7 +213,7 @@ By exploring this project, you can develop an understanding of:
 - API authentication and error handling
 - The role of embeddings in RAG systems
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Possible extensions include:
 
@@ -227,7 +227,7 @@ Possible extensions include:
 - Connecting retrieved context to an LLM for RAG.
 - Recording latency, API failures, and usage costs.
 
-## 🌐 Applications
+## Applications
 
 Text embeddings generated through hosted inference can support:
 
@@ -239,7 +239,7 @@ Text embeddings generated through hosted inference can support:
 - Duplicate content detection
 - RAG-based applications
 
-## ✅ Conclusion
+## Conclusion
 
 This project introduces the use of the **Hugging Face Inference API for text embeddings** and explains how hosted embedding models convert text into numerical representations.
 
